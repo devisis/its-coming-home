@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+   
+}
+nav ul {
+    list-style-type: none;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: navy;
+    display: block;
+}
+
+nav a:hover {
+    color: red;
+}
+
+h1 {
+    font-family: "Tourney", cursive;
+    color: red;
+}
+
+/*Main*/
+.main{
+    padding: 50px 0 50px 0;
+    margin:auto;
+}
+
+.main div a{
+   text-decoration: none;
+   display: inline-block;
+   margin: 1%;
+}
+.main img{
+    max-width: 100vh;
+    height: auto;
+}
+
+/*Croatia*/
