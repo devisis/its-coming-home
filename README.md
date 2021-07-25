@@ -42,7 +42,8 @@ The goal of the site is to document Englands ascent to the Euro 2020 final throu
 - 
 
 
-# Wireframes
+
+# Wireframesm
 
 ## Landing Page Option 1
 ![Landing Page Option 1](https://i.imgur.com/4ugG6PA.png)
