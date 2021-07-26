@@ -1,16 +1,21 @@
+/* General Styling */
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: #009bb4;
+    background-color: #007a8c;
     font-family: "Lato", sans-serif;
     text-align: center;
    
 }
+h2, h3{
+    color: white;
+}
 nav ul {
     list-style-type: none;
-    background-color: #007a8c;
+    background-color: #004a55;
     text-align: center;
     margin: 0;
+    padding: 0.5rem;
 }
 
 nav li {
@@ -45,10 +50,10 @@ h1 {
     color: red;
 }
 
-/*Main*/
+/* Landing Page */
+
 .main{
     padding: 50px 0 50px 0;
-    border: 2px solid white;
 }
 
 .match-selector{
@@ -58,19 +63,28 @@ h1 {
 }
 
 .match-selector div{   
-
+    
     padding: 2rem;
     color: black;
-    border: 2px green solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #007a8c;
 }
 
 .main div a{
    text-decoration: none;
-   display: inline-block;
+   display: flex;
    margin: 1%;
-   border: 5px red solid;
-   color: black;
+   color: white;
+   font-weight: 900;
+   border-bottom-style: solid;
+   border-width: 2px;
+   border-color: red;
 
+}
+
+.main div p{
+    padding-left: 2rem;
 }
 
 .main img{
@@ -79,4 +93,19 @@ h1 {
     border: 0.5px black solid;
 }
 
-/*Croatia*/
+/*England Page */
+
+.england div{
+    display: inline-block;
+   
+    border: 2px solid red;
+
+}
+.england #div1{
+    display: flex;
+    flex-direction: column;
+}
+.england #div2{
+    display: flex;
+    flex-direction: row;
+}
