@@ -95,17 +95,25 @@ h1 {
 
 /*England Page */
 
-.england div{
-    display: inline-block;
-   
+.england{
+    display: flex;
+    justify-content: space-evenly;
     border: 2px solid red;
-
+    
 }
 .england #div1{
+    border: 2px dashed white;
     display: flex;
     flex-direction: column;
+    float: left;
+    padding: 2rem;
+    margin:0.5rem;
 }
 .england #div2{
+    border: 2px dashed white;
     display: flex;
     flex-direction: row;
+    float: right;
+    padding: 2rem;
+    margin:0.5rem;
 }
