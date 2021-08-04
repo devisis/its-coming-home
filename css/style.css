@@ -100,11 +100,9 @@ nav img:hover {
    font-weight: 900;
    border: 1.2px solid navy;
    border-style: solid none solid none;
-
    transition: font-size 0.25s;
    transition-timing-function: ease-in-out;
    background-color: #004a55;
-
 }
 
 .main a:hover {

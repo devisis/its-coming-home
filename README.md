@@ -90,3 +90,9 @@ The Tourney font is used to make the site title more playful and fun. Lato is us
 - Dates and locations
 - Flag Navigation
 
+
+# Testing
+
+I discovered through the use of the developer tools that the site was not optimized for small screen sizes like mobile browsers.
+
+![Mobile View using Developer tool](https://i.imgur.com/IvYbIsZ.png)
