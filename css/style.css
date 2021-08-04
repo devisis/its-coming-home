@@ -7,6 +7,11 @@ body {
     text-align: center;
 }
 
+header {
+    padding: 0.5rem, 0, 0.5, 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
 h1 {
     font-family: "Tourney", cursive;
     color: red;
@@ -67,7 +72,6 @@ nav img:hover {
 }
 
 .match-selector div{   
-    
     padding: 2rem;
     color: black;
     border-top-style: solid;
@@ -97,11 +101,12 @@ nav img:hover {
     color: red;
     font-size: 1.1em;
     background-color: rgba(0,0,0,0.7);
+    opacity: 0.7;
 
 }
 
 .main div p{
-    padding-left: 2rem;
+    padding: 1%, 0, 0, 2rem;
 }
 
 .main img{
