@@ -5,11 +5,20 @@ body {
     background-color: #007a8c;
     font-family: "Lato", sans-serif;
     text-align: center;
-   
 }
+
+h1 {
+    font-family: "Tourney", cursive;
+    color: red;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
 h2, h3{
     color: white;
 }
+/* Navbar */
+
 nav ul {
     list-style-type: none;
     background-color: #004a55;
@@ -32,9 +41,6 @@ nav img {
 
 }
 
-
-
-
 nav a {
     text-decoration: none;
     color: navy;
@@ -42,18 +48,16 @@ nav a {
 }
 
 nav img:hover {
-    border: 0.5px solid rgb(22, 22, 145);
+    opacity: 0.4;
 }
 
-h1 {
-    font-family: "Tourney", cursive;
-    color: red;
-}
+
 
 /* Landing Page */
 
 .main{
     padding: 50px 0 50px 0;
+    color: white;
 }
 
 .match-selector{
@@ -66,6 +70,7 @@ h1 {
     
     padding: 2rem;
     color: black;
+    border-top-style: solid;
     border-bottom-style: solid;
     border-width: 2px;
     border-color: #007a8c;
@@ -77,9 +82,21 @@ h1 {
    margin: 1%;
    color: white;
    font-weight: 900;
+   border-top-style: solid;
    border-bottom-style: solid;
    border-width: 2px;
-   border-color: red;
+   border-color: white;
+   transition: font-size 0.25s;
+   transition-timing-function: ease-in-out;
+   background-color: #004a55;
+
+}
+
+.main a:hover {
+    border-color: red;
+    color: red;
+    font-size: 1.1em;
+    background-color: rgba(0,0,0,0.7);
 
 }
 
