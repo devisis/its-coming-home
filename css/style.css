@@ -89,20 +89,30 @@ nav img:hover {
     border-color: #007a8c;
  
 }
-
-
-
 .main div a{
-   text-decoration: none;
-   display: flex;
-   margin: 1%;
-   color: white;
-   font-weight: 900;
-   border: 1.2px solid navy;
-   border-style: solid none solid none;
-   transition: font-size 0.25s;
-   transition-timing-function: ease-in-out;
-   background-color: #004a55;
+    text-decoration: none;
+    margin: 1%;
+    color: white;
+    font-weight: 900;
+    border: 1.2px solid navy;
+    border-style: solid none solid none;
+    transition: font-size 0.25s;
+    transition-timing-function: ease-in-out;
+    background-color: #004a55;
+}
+
+@media (max-width: 400px) {
+    .main div a{
+        border: 2px solid navy;
+        background-color: red;
+    }
+}
+
+
+@media (min-width:800px){
+    .main div a {
+        display: flex;
+    }
 }
 
 .main a:hover {
@@ -113,7 +123,10 @@ nav img:hover {
     opacity: 0.7;
 
 }
+span{
+    display: flex;
 
+}
 .main div p{
     padding: 1% 0 0 1rem;
 }
