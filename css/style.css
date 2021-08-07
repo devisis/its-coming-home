@@ -5,91 +5,88 @@ body {
     background-color: #007a8c;
     font-family: "Lato", sans-serif;
     text-align: center;
-}
-
-header {
+  }
+  
+  header {
     padding: 0.5rem 0 0.5rem 0;
-    background-color: rgba(0,0,0,0.7);
-}
-
-h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  h1 {
     font-family: "Tourney", cursive;
     color: red;
     margin-top: 1%;
     margin-bottom: 2%;
-}
-
-h2, h3{
+  }
+  
+  h2,
+  h3 {
     color: white;
-}
-/* Navbar */
-nav{
+  }
+  /* Navbar */
+  nav {
     width: 100%;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style-type: none;
     background-color: #004a55;
     text-align: center;
     margin: 0;
     padding: 0.5rem;
-}
-
-nav li {
+  }
+  
+  nav li {
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
     display: inline-block;
     margin: 1.5%;
-}
-
-nav img {
+  }
+  
+  nav img {
     width: 75px;
     height: 50px;
-
-}
-
-nav a {
+  }
+  
+  nav a {
     text-decoration: none;
     color: navy;
     display: block;
-}
-
-nav img:hover {
+  }
+  
+  nav img:hover {
     opacity: 0.4;
-}
-
-
-
-/* Landing Page */
-#hero-img{
+  }
+  
+  /* Landing Page */
+  #hero-img {
     height: 400px;
     width: 100%;
-    background:url("../images/england_fc_logo.png") center center / 400px 400px repeat-x ;
-
-}
-.main{
+    background: url("../images/england_fc_logo.png") center center / 400px 400px
+      repeat-x;
+  }
+  .main {
     padding: 50px 0 50px 0;
     color: white;
     overflow: hidden;
-}
-
-.match-selector{
+  }
+  
+  .match-selector {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
-}
-
-.match-selector div{   
+  }
+  
+  .match-selector div {
     padding: 2rem;
     color: black;
     border-top-style: solid;
     border-bottom-style: solid;
     border-width: 2px;
     border-color: #007a8c;
- 
-}
-.main div a{
+  }
+  .main div a {
     text-decoration: none;
     margin: 1%;
     color: white;
@@ -99,87 +96,91 @@ nav img:hover {
     transition: font-size 0.25s;
     transition-timing-function: ease-in-out;
     background-color: #004a55;
-}
-
-@media (max-width: 400px) {
-    .main div a{
-        border: 2px solid navy;
-        background-color: red;
-    }
-}
-
-
-@media (min-width:800px){
-    .main div a {
-        display: flex;
-    }
-}
-
-.main a:hover {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main a:hover {
     border-color: red;
     color: red;
     font-size: 1.1em;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     opacity: 0.7;
-
-}
-span{
-    display: flex;
-
-}
-.main div p{
+  }
+  
+  .main div p {
     padding: 1% 0 0 1rem;
-}
-
-.main img{
+  }
+  
+  .main img {
     width: 8rem;
     height: 5rem;
-}
-
-/*England Page */
-
-.england{
+  }
+  
+  @media (max-width: 700px) {
+    .main div a {
+      display: inline-grid;
+      grid-template-rows: 45% auto auto;
+      grid-row-gap: 5px;
+    }
+  
+    p {
+      font-size: small;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .main div a {
+      display: flex;
+    }
+    span {
+      display: flex;
+    }
+  }
+  
+  /*England Page */
+  
+  .england {
     display: flex;
     justify-content: space-evenly;
     border: 2px solid red;
-    
-}
-.england #div1{
+  }
+  .england #div1 {
     border: 2px dashed white;
     display: flex;
     flex-direction: column;
     float: left;
     padding: 2rem;
-    margin:0.5rem;
-}
-.england #div2{
+    margin: 0.5rem;
+  }
+  .england #div2 {
     border: 2px dashed white;
     display: flex;
     flex-direction: row;
     float: right;
     padding: 2rem;
-    margin:0.5rem;
-}
-
-/* Footer */
-
-footer{
-    position: static;
+    margin: 0.5rem;
+  }
+  
+  /* Footer */
+  
+  footer {
     bottom: 0;
     padding: 2%;
     color: red;
-    background-color: rgba(0,0,0,0.7);
-}
-
-footer a {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  footer a {
     padding: 5%;
     color: white;
-}
-
-footer a:hover {
+  }
+  
+  footer a:hover {
     opacity: 0.5;
-}
-
-footer div {
+  }
+  
+  footer div {
     display: inline;
-}
+  }
+  
