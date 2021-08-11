@@ -93,6 +93,14 @@ The Tourney font is used to make the site title more playful and fun. Lato is us
 
 # Testing
 
-I discovered through the use of the developer tools that the site was not optimized for small screen sizes like mobile browsers.
+I discovered through the use of the developer tools that the site was not optimized for small screen sizes like mobile browsers. The iphone5 screen size was particularly uncompromising it seemingly ignored the layout I tried to present therefore I had to manually add padding to the right of the screen to center my elements.
 
 ![Mobile View using Developer tool](https://i.imgur.com/IvYbIsZ.png)
+
+I made sure all links in the navbar lead to the right pages by running through each page one by one.
+
+# Validator Testing
+
+Upon using the w3.org validator I came across a few minor issues. I had to remove my spans which wrapped around each p tag.
+
+![Validator testing of html](https://i.imgur.com/QXtc3tX.png)
