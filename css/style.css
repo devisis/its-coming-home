@@ -139,27 +139,84 @@ body {
   /*England Page */
   
   .england {
+    border: 3px solid green;
     display: flex;
-    justify-content: space-evenly;
-    border: 2px solid red;
+    justify-content: space-between;
     overflow: hidden;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
   }
   .england #div1 {
-    border: 2px dashed white;
+    height: 100%;
+    border: 2px dashed blue;
     display: flex;
     flex-direction: column;
-    float: left;
+    justify-content: center;
     padding: 2rem;
     margin: 0.5rem;
+    background-color: whitesmoke;
+    width: 100%;
+  }
+  #div1 img {
+    height: 10%;
+    width: auto;
   }
   .england #div2 {
-    border: 2px dashed white;
+    border: 2px dashed black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     float: right;
     padding: 2rem;
     margin: 0.5rem;
+    width: 100%;
+    justify-content: center;
   }
+  
+  iframe {
+    padding: 2em;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  th,
+  td,
+  caption {
+    text-align: left;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+    font-size: small;
+  }
+  
+  caption {
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  table,
+  th,
+  td {
+    border: 0.1px solid black;
+    border-style: solid none none none;
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    padding: 0.5rem;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  tr:nth-child(odd) {
+    background-color: red;
+  }
+  
   
   /* Footer */
   
