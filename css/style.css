@@ -146,9 +146,12 @@ nav img:hover {
   background-color: #007a8c;
   flex-direction: column;
   align-items: center;
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
-.england #div1, .england #div2 {
+.england #div1,
+.england #div2 {
   height: 100%;
   border: 2px dashed blue;
   display: flex;
@@ -156,17 +159,11 @@ nav img:hover {
   justify-content: center;
   padding: 2rem;
   margin: 0.5rem;
-  background-color: whitesmoke;
   width: 100%;
   max-width: 700px;
 }
-#div1 img {
-  height: 10%;
-  width: auto;
-}
 
-.wrapper,
-.wrapper2 {
+.wrapper {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
@@ -174,8 +171,7 @@ nav img:hover {
   background-color: coral;
 }
 
-.wrapper iframe,
-.wrapper2 iframe {
+.wrapper iframe {
   top: 0;
   left: 0;
   width: 100%;
@@ -224,6 +220,53 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #004a55;
   color: white;
+}
+
+@media (min-width: 1000px) {
+  .england {
+    flex-direction: row;
+  }
+  .england #div1,
+  .england #div2 {
+    padding: 2rem 0 0 0;
+    margin: 0;
+    height: 90%;
+  }
+}
+/* Opponents */
+
+.opponent {
+  background-color: whitesmoke;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.opponent #div1 {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 2px solid gold;
+}
+.opponent #div2 {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 2px solid brown;
+}
+
+.opponent img {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+}
+@media (min-width: 700px) {
+  .opponent #div2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .opponent #div2 img {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 700px;
+  }
 }
 
 /* Footer */
