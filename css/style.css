@@ -236,7 +236,7 @@ tr:nth-child(odd) {
 /* Opponents */
 
 .opponent {
-  background-color: whitesmoke;
+  background-color: #007a8c;
   padding: 2rem;
   overflow: hidden;
 }
