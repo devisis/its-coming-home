@@ -29,6 +29,25 @@ The site user will relive each fixture through the multimedia and description on
 - As a site owner I will make the website easy to navigate.
 - As a site owner I will show highlight videos.
 
+# Features
+
+## Existing Features
+- Flag Navigation Bar
+- Opacity when hovering icons
+- Landing Page Hero Image
+- Landing Page Timeline
+- Landing Page Footer
+- England Page Hero Image
+- England Page Highlight Video
+- England Page Stats Table
+- Opponents Page flag
+- Opponents Page Highlight Video
+- Game Stats and Starting XI
+
+## Features Left to Implement
+- Man of the Match stats for each game.
+
+
 # Stratergy
 
 # Scope
@@ -93,14 +112,37 @@ The Tourney font is used to make the site title more playful and fun. Lato is us
 
 # Testing
 
-I discovered through the use of the developer tools that the site was not optimized for small screen sizes like mobile browsers. The iphone5 screen size was particularly uncompromising it seemingly ignored the layout I tried to present therefore I had to manually add padding to the right of the screen to center my elements.
+## Responsivity 
+
+I discovered through the use of the developer tools that the site was not optimized for small screen sizes like mobile browsers. The iphone 5 screen size was particularly uncompromising. It seemingly ignored the layout I tried to present. I had to manually add padding to the right side of the screen to center my elements.
+
+I tested my sites responsivity by changing the screen size via Google Chrome Developer tools and made adjustments to the css where I saw fit.
 
 ![Mobile View using Developer tool](https://i.imgur.com/IvYbIsZ.png)
 
-I made sure all links in the navbar lead to the right pages by running through each page one by one.
+I made sure all links in the navbar lead to the right pages. I did this by running through each page clicking on each flag and navigation link.
+
 
 # Validator Testing
 
 Upon using the w3.org validator I came across a few minor issues. I had to remove my spans which wrapped around each p tag.
 
 ![Validator testing of html](https://i.imgur.com/QXtc3tX.png)
+
+
+# Deployment
+
+This site was deployed to GitHub pages. I did this by: 
+- step 1
+- step 2
+- step 3
+
+# Credits
+
+## Media 
+- The main page photo was taken from Wikipedia.
+- The flag images were sourced from cdn.countryflags.com.
+- The imbeded highlight videos were taken from YouTube.
+- The England squad photo was taken from theathletic.co.uk.
+- The English player stats on the England page were sourced from the Euro2020 website.
+- The team sheets and match stats on the opponents pages were sourced from footballcritic.com.
