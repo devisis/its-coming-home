@@ -276,14 +276,15 @@ tr:nth-child(odd) {
 }
 
 @media (min-width: 900px) {
-  #line-up, #stats {
+  #line-up {
     float: right;
     max-width: 29%;
     display: block;
   }
   #stats {
     float: left;
-
+    max-width: 29%;
+    display: block;
   }
   .opponent #opp-intro {
     display: inline-block;
