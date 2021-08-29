@@ -28,7 +28,7 @@ h4 {
 /* Navbar */
 nav {
   width: 100%;
-  background-color: red;
+  background-color: #004a55;
 }
 
 nav ul {
@@ -137,6 +137,11 @@ nav img:hover {
 }
 
 @media (min-width: 700px) {
+  .match-selector {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  }
 
   .main div a {
     display: flex;
@@ -247,40 +252,42 @@ tr:nth-child(odd) {
 
 .opponent {
   background-color: #007a8c;
-  padding: 2rem;
   overflow: hidden;
+  width: 98%;
+  padding: 3rem 0 3rem 0;
+  margin: 0 auto;
+  border: 2px solid black;
 }
 
-.opponent #div1 {
-  max-width: 700px;
+.opponent #opp-intro {
+  width: 98%;
   margin: 0 auto;
   border: 2px solid gold;
 }
-.opponent #div2 {
-  display: flex;
-  flex-basis: 100%;
+
+#line-up, #stats {
+  max-width: 98%;
   margin: 0 auto;
-  border: 2px solid green;
 }
 
-.opponent img {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 700px;
+#flag {
+  border-radius: 5%;
+  width: 65%;
 }
-@media (min-width: 700px) {
-  .opponent #div2 {
-    display: flex;
-    overflow: hidden;
-    border: 2px solid paleturquoise;
+
+@media (min-width: 900px) {
+  #line-up, #stats {
+    float: right;
+    max-width: 29%;
+    display: block;
   }
-  .opponent #div2 img {
-    margin: 0 auto;
-    width: 50%;
-    max-width: 700px;
+  #stats {
+    float: left;
+
   }
-  .opponent{
-    display: flex;
+  .opponent #opp-intro {
+    display: inline-block;
+    width: 40%;
   }
 }
 
