@@ -223,7 +223,7 @@ th {
 
 tr:nth-child(even) {
   background-color: #004a55;
-  color: red;
+  color: #07FFEA;
 }
 tr:nth-child(odd) {
   background-color: #004a55;
@@ -311,7 +311,7 @@ iframe {
 footer {
   bottom: 0;
   padding: 2%;
-  color: red;
+  color: #07FFEA;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
