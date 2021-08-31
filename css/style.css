@@ -243,13 +243,15 @@ tr:nth-child(odd) {
 }
 
 /* iframe Settings */
+iframe {
+  border-style: none;
+}
 
 .wrapper {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
   margin: 2rem 0 2rem 0;
-  background-color: coral;
 }
 
 .wrapper iframe {
