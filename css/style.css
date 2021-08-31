@@ -9,7 +9,7 @@ body {
 
 header {
   padding: 0.5rem 0 0.5rem 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0);
 }
 
 h1 {
@@ -79,8 +79,8 @@ nav img:hover {
 
 .match-selector {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: repeat(2/50%);
+  grid-template-rows: repeat(4/25%);
 }
 
 .match-selector div {
@@ -147,8 +147,8 @@ nav img:hover {
 @media (min-width: 800px) {
   .match-selector {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: repeat(3/33%);
+    grid-template-rows: repeat(3/33%);
   }
 }
 
@@ -156,7 +156,7 @@ nav img:hover {
   .match-selector {
     display: grid;
     grid-template-rows: 100%;
-    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-columns: repeat(8/12%);
   }
 
   .main div a {
